@@ -7,7 +7,7 @@ const Projects = () => {
     
     {
       title: "My Portfolio",
-      description: "A full-stack e-commerce platform built with MERN stack. Features include user authentication, product catalog, shopping cart, and payment integration.",
+      description: "A personal portfolio website built with the MERN stack (MongoDB, Express.js, React.js, Node.js), showcasing my projects, skills, and achievements, with secure authentication, dynamic content management, and a responsive, interactive UI, deployed on Vercel and MongoDB Atlas.",
       image: "/images/project1.png",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       githubLink: "https://github.com/yourusername/ecommerce",
@@ -17,14 +17,14 @@ const Projects = () => {
       title: "E-Commerce Website",
       description: "A full-stack e-commerce platform built with MERN stack. Features include user authentication, product catalog, shopping cart, and payment integration.",
       image: "/images/project2.png",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-      githubLink: "https://github.com/yourusername/ecommerce",
+      technologies: ["React", "Node.js", "MongoDB", "stripe"],
+      githubLink: "https://github.com/2203031050528/E-Commerce-Web",
       liveLink: "https://your-ecommerce-site.com"
     },
     {
-      title: "Chat Application",
-      description: "Real-time chat application with features like private messaging, group chats, and file sharing.",
-      image: "/images/chat-app.jpg",
+      title: "AI-Powered Personal Finance Management System",
+      description: "An AI-powered Personal Finance Management System using React.js, Tailwind CSS, Node.js, Express.js, MongoDB, Firebase Authentication, Python (Flask) for AI/ML features, Chart.js for data visualization, and deployed on Vercel, Render, and MongoDB Atlas, providing features like multi-user family dashboards, real-time budget tracking, AI-driven insights, and secure financial management.",
+      image: "/images/project3.png",
       technologies: ["Socket.io", "React", "Node.js", "Express"],
       githubLink: "https://github.com/yourusername/chat-app",
       liveLink: "https://your-chat-app.com"
