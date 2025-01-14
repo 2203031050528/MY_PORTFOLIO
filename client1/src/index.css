@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+/* Ensure dark mode transitions are smooth */
+* {
+  @apply transition-colors duration-300;
+}
+
+/* Force dark mode styles when .dark class is present */
+.dark {
+  color-scheme: dark;
+}
+
+.dark body {
+  @apply bg-gray-900 text-white;
+}
+
+/* Add smooth scrolling to page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optimize performance */
+.cursor-main,
+.cursor-hover-ring,
+.cursor-trail {
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
