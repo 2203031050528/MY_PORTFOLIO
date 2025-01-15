@@ -10,7 +10,7 @@ const Projects = () => {
       description: "A personal portfolio website built with the MERN stack (MongoDB, Express.js, React.js, Node.js), showcasing my projects, skills, and achievements, with secure authentication, dynamic content management, and a responsive, interactive UI, deployed on Vercel and MongoDB Atlas.",
       image: "/images/project1.png",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
-      githubLink: "https://github.com/yourusername/ecommerce",
+      githubLink: "https://github.com/2203031050528/Rahul-Jangir",
       liveLink: "https://your-ecommerce-site.com"
     },
     {
@@ -26,7 +26,7 @@ const Projects = () => {
       description: "An AI-powered Personal Finance Management System using React.js, Tailwind CSS, Node.js, Express.js, MongoDB, Firebase Authentication, Python (Flask) for AI/ML features, Chart.js for data visualization, and deployed on Vercel, Render, and MongoDB Atlas, providing features like multi-user family dashboards, real-time budget tracking, AI-driven insights, and secure financial management.",
       image: "/images/project3.png",
       technologies: ["Socket.io", "React", "Node.js", "Express"],
-      githubLink: "https://github.com/yourusername/chat-app",
+      githubLink: "https://github.com/2203031050528/AI-Powered-Personal-Finance-Management-System",
       liveLink: "https://your-chat-app.com"
     },
     // Add your other projects here...
